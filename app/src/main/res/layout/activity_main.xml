@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/number_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:background="@color/numberButtonBackGround"
+        >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4"
+            >
+
+            <Button
+                android:layout_row="0"
+                android:layout_column="0"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/seven"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="7"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+                />
+
+            <Button
+                android:layout_row="0"
+                android:layout_column="1"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/eight"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="8"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+                />
+
+            <Button
+                android:layout_row="0"
+                android:layout_column="2"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/nine"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="9"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+
+                />
+
+            <Button
+                android:layout_row="1"
+                android:layout_column="0"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/four"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="4"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+
+                />
+
+            <Button
+                android:layout_row="1"
+                android:layout_column="1"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/five"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="5"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+
+                />
+
+            <Button
+                android:layout_row="1"
+                android:layout_column="2"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/six"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="6"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+
+                />
+
+            <Button
+                android:layout_row="2"
+                android:layout_column="0"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/one"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="1"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+                />
+
+            <Button
+                android:layout_row="2"
+                android:layout_column="1"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/two"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="2"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+                />
+
+            <Button
+                android:layout_row="2"
+                android:layout_column="2"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/three"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="3"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+                />
+
+            <Button
+                android:layout_row="3"
+                android:layout_column="0"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/zero"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="0"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+                />
+
+            <Button
+                android:layout_row="3"
+                android:layout_column="1"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/decimal"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="."
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+                />
+
+        </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/centerShim"
+        android:layout_height="wrap_content"
+        android:layout_width="2dp"
+        android:background="@color/divider"
+
+        app:layout_constraintStart_toEndOf="@id/number_buttons"
+        app:layout_constraintTop_toTopOf="@id/number_buttons"
+
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/operators"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toEndOf="@id/number_buttons"
+        app:layout_constraintTop_toTopOf="@id/number_buttons"
+
+        android:background="@color/numberButtonBackGround"
+        >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:columnCount="2"
+            android:rowCount="4"
+            >
+
+            <Button
+                android:layout_column="0"
+                android:layout_row="0"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/divide"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="÷"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+                />
+
+            <Button
+                android:layout_column="0"
+                android:layout_row="1"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/multiply"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="×"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+                />
+
+            <Button
+                android:layout_column="0"
+                android:layout_row="2"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/subtract"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="–"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+                />
+
+            <Button
+                android:layout_column="0"
+                android:layout_row="3"
+
+                android:background="?android:attr/selectableItemBackground"
+
+                android:id="@+id/add"
+                android:layout_width="@dimen/calculator_button_number_side_length"
+                android:layout_height="@dimen/calculator_button_number_side_length"
+                android:gravity="center"
+                android:text="+"
+                android:textAlignment="gravity"
+                android:textSize="@dimen/calculator_button_number_textSize"
+
+                />
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
